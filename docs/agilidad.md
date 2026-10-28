@@ -38,13 +38,13 @@ Se limita En curso a una tarjeta. Al revisar se comprueban el alcance, los ident
 
 El incremento documenta PRU-019 para el fallo de guardado de un ajuste manual de REQ-015 y CU-006. La prueba parte de stock 10, un historial previo y un motivo válido. Tras un fallo antes de confirmar la transacción, exige stock 10, conservación de los registros anteriores y ausencia de movimientos o motivos guardados parcialmente.
 
-La [tarjeta de PRU-019](https://trello.com/c/AfN5TOU6) registra los siguientes movimientos. Fechas y horas de Lima (UTC−5), tomadas del historial de Trello:
+La [tarjeta de PRU-019](https://trello.com/c/AfN5TOU6) registra el siguiente recorrido:
 
-| Fecha y hora | Movimiento |
+| Movimiento | Acción realizada |
 |---|---|
-| 27/10/2026 21:02:50 | Por hacer → En curso |
-| 27/10/2026 21:03:20 | En curso → En revisión |
-| 27/10/2026 21:03:25 | En revisión → Terminado |
+| Por hacer → En curso | Se aborda la documentación del escenario de fallo de guardado. |
+| En curso → En revisión | Se revisa que PRU-019 indique las condiciones iniciales, el fallo y el resultado esperado. |
+| En revisión → Terminado | Se comprueba que el texto cumple los criterios de aceptación de la tarjeta. |
 
 Antes de trasladar la tarjeta a Terminado se contrastó el texto guardado con sus tres criterios de aceptación. El [commit de PRU-019](https://github.com/seckfly/Grupo_4_ISW_Comercial_Nazareth_Lab7_V2/commit/9db12638a8ab1ed74c3ac9144542fda12ab3ad56) contiene el escenario, y el [commit de la matriz](https://github.com/seckfly/Grupo_4_ISW_Comercial_Nazareth_Lab7_V2/commit/347a84070c39863c5a8ce8a0af36fa1f7f4f8d7e) vincula la prueba con REQ-015.
 
