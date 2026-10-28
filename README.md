@@ -29,6 +29,7 @@ El alcance comprende cinco requisitos de venta, existencias, catálogo, vinculac
 
 - [Aplicación de los cuatro criterios y evidencias del flujo](docs/agilidad.md).
 - [Tablero Kanban en Trello](https://trello.com/b/9LEaT3KG/comercial-nazareth-kanban-v2).
+- [PR de la adaptación V2](https://github.com/seckfly/Grupo_4_ISW_Comercial_Nazareth_Lab7_V2/pull/1).
 
 La mejora incorpora PRU-019 para el fallo al guardar un ajuste manual de REQ-015. V2 reúne cinco requisitos y nueve pruebas documentadas, con cobertura por requisitos del 100 %.
 

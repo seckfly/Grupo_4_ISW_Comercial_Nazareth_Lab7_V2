@@ -66,3 +66,7 @@ Cobertura: (5 requisitos con prueba documentada ÷ 5 requisitos totales) × 100 
 PRU-019 amplía los escenarios documentados de REQ-015 y conserva los identificadores de los elementos existentes. La matriz mantiene CR-001 como último cambio de ese requisito: la regla de guardado conjunto procede de la base v1.1.
 
 El [reporte v1.1](https://github.com/seckfly/Grupo_4_ISW_Comercial_Nazareth_Lab7_V2/blob/v1.1/reportes/reporte-v1.1.md) corresponde a la línea base de ocho pruebas. Los resultados de la adaptación V2 se registran en esta tabla.
+
+## Integración
+
+Los cuatro archivos de la adaptación se agrupan en el [PR #1](https://github.com/seckfly/Grupo_4_ISW_Comercial_Nazareth_Lab7_V2/pull/1). La comparación del PR y los commits enlazados permiten contrastar la prueba, su trazabilidad y la documentación con la base v1.1.
